@@ -1055,7 +1055,8 @@ flows:
             4:
                 task: update_admin_profile
                 options:
-                    managed: true
+                    managed: True
+                    include_packaged_objects: True
 
     config_offsetfiscal:
         description: 'Configure an offset fiscal year'
